@@ -17,7 +17,7 @@ Presentation links
   - [`MDN Localization Docs`] https://developer.mozilla.org/en-US/docs/Mozilla/Localization
   - [`MDN Localization Cheatsheet`] https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Web_Localizability/Creating_localizable_web_applications
   - [`L20N`] http://l20n.org/
-  - [`Cosmic.js`] https://cosmicjs.com
+  - [`Cosmic.js`] https://cosmicjs.com/apps/localization-example/demo
 
 ## [License](LICENSE)
 
