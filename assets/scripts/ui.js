@@ -23,9 +23,9 @@ const useJapanese = function () {
 
 const useChinese = function () {
   $('#favicon-locale').attr('href', './favicon-cn.ico')
-  $('#title-locale').text('ENTER A CHINESE TITLE HERE')
-  $('#pagehead-locale').text('ENTER A CHINESE HEADER HERE')
-  $('#body-locale').text('ENTER TRANSLATED CHINESE TEXT HERE')
+  $('#title-locale').text('')
+  $('#pagehead-locale').text('')
+  $('#body-locale').text('')
 }
 
 module.exports = {

@@ -13,21 +13,27 @@
     </head>
     <body>
       <div id="main-view" class="container">
-        <div>
-          <h1 id="pagehead-locale"></h1>
+        <div class="row">
+          <div>
+            <h1 id="pagehead-locale"></h1>
+          </div>
         </div>
-        <div>
+        <div class="row">
           <button id="lang-en" class="btn btn-primary btn-lg">Click for English</button>
           <button id="lang-es" class="btn btn-primary btn-lg">Imprime para Español</button>
           <button id="lang-jp" class="btn btn-primary btn-lg">日本語をクリックする</button>
           <!-- <button id="lang-cn" class="btn btn-primary btn-lg">USE CHINESE</button> -->
         </div>
-        <div class="col-xs-12"></div>
-        <div class="col-xs-1"></div>
-        <div class="col-xs-10 message">
-          <p id="body-locale"></p>
+        <div class="row">
+          <div class="col-xs-12"></div>
         </div>
-        <div class="col-xs-1"></div>
+        <div class="row">
+          <div class="col-xs-1"></div>
+          <div class="col-xs-10 message">
+            <p id="body-locale"></p>
+          </div>
+          <div class="col-xs-1"></div>
+        </div>
       </div>
     </body>
 </html>
