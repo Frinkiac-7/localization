@@ -1,5 +1,7 @@
 'use strict'
 
+const ui = require('./ui')
+
 // use require with a reference to bundle the file and use it in this file
 // const example = require('./example')
 
@@ -7,5 +9,9 @@
 // require('./example')
 
 $(() => {
-  // your JS code goes here
+  // $('#main-view').hide('slow')
+  $('#lang-en').on('click', ui.useEnglish)
+  $('#lang-es').on('click', ui.useSpanish)
+  $('#lang-jp').on('click', ui.useJapanese)
+  // $('#lang-cn').on('click', ui.useChinese)
 })
